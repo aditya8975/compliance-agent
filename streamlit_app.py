@@ -490,6 +490,6 @@ elif page == "Settings":
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666; font-size: 12px;">
-    🛡️ Compliance Agent v1.0 | Powered by Groq AI
+    🛡️ Compliance Agent v1.0 
 </div>
 """, unsafe_allow_html=True)
