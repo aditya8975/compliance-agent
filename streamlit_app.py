@@ -433,7 +433,7 @@ elif page == "Settings":
     
     st.subheader("API Configuration")
     
-  groq_key = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY", ""))
+  groq_key = st.secrets.get("GROQ_API_KEY","")
     st.info(f"GROQ API Key: {'✅ Configured' if groq_key else '❌ Not configured'}")
     
     if not groq_key:
