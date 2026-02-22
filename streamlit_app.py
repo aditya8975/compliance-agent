@@ -1,7 +1,3 @@
-"""
-Streamlit Dashboard for Autonomous Compliance Agent
-Professional UI for monitoring and managing compliance tasks
-"""
 
 import streamlit as st
 import json
@@ -13,7 +9,7 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 
-# Page config
+
 st.set_page_config(
     page_title="🛡️ Compliance Agent",
     page_icon="🛡️",
@@ -21,7 +17,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS
 st.markdown("""
 <style>
     .main {
