@@ -1,7 +1,3 @@
-"""
-SEBI Circular Scraper - Fixed Version
-Uses SEBI RSS feed (works without JavaScript) instead of BeautifulSoup scraping
-"""
 
 import requests
 from datetime import datetime
